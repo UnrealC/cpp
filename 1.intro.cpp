@@ -13,10 +13,10 @@ int main ()
 	// 	   << endl << "3. Difficult" << endl << endl;			 
   
 	//**************************************************
-	// cout << "Enter a character" << endl;
-	// char x;
-	// cin >> x;
-	// cout << "You entered: " << x << endl;
+	cout << "Enter a character" << endl;
+	char x;
+	cin >> x;
+	cout << "You entered: " << x << endl;
   
 	//**************************************************
 	// int c;

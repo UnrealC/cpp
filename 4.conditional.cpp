@@ -14,16 +14,16 @@ int main()
   cin >> input; 
 
  //**************************************************
-  // if(input == 1) {
-  //   cout << "You chose Easy" << endl;
-  // }else if (input == 2) {
-  //   cout << "You chose Medium" << endl;    
-  // } else {
-  //   cout << "You chose Hard" << endl;
-  // }
+  if(input == 1) {
+    cout << "You chose Easy" << endl;
+  }else if (input == 2) {
+    cout << "You chose Medium" << endl;    
+  } else {
+    cout << "You chose Hard" << endl;
+  }
 
  //**************************************************
-//(input==1) ?  cout << "You chose Easy" << endl :   cout << "you chose something else" << endl;
+(input==1) ?  cout << "You chose Easy" << endl :   cout << "you chose something else" << endl;
 
  //**************************************************
   // (input==1) ? cout << "You chose Easy" << endl : ( input == 2  ? cout << "you chose medium" : cout << "you chose hard" << endl);

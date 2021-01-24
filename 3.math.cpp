@@ -45,10 +45,10 @@ int main()
   //***********************************************************************
 
   //Trigonametry    
-	// cout << "Pi: " << M_PI << endl;
-	// cout << "Pi/2:  " << M_PI_2 << endl; 
+	cout << "Pi: " << M_PI << endl;
+	cout << "Pi/2:  " << M_PI_2 << endl; 
   
-	// cout << "sin(90): " << sin(M_PI_2) << endl;
+	cout << "sin(90): " << sin(M_PI_2) << endl;
 	// cout << "cos(90): " << cos(M_PI_2) << endl;
 	// cout << "tan(0): " << tan(0) << endl;
 	// cout << "cot(90): " << 1/tan(90) << endl;

@@ -18,15 +18,15 @@ int main()
   // unsigned long c11; // 8 bytes
   // unsigned long int d11; // 8bytes
 
-  // float x; //4 btyes
+  float x; //4 btyes
   
-  // double y; //8 bytes
+  double y; //8 bytes
 
-  // char z; // 1 byte
+  char z; // 1 byte
 //**************************************************************************************************
 
 	// cout << "size of short: " << sizeof(short) << endl ;
-	// cout << "size of short int: " << sizeof(short int) << endl;;
+	// cout << "size of short int: " << sizeof(short int) << endl;
 	
 	// cout << "range of short is: from " << pow(2,15)/2 << " to " << pow(2,15)/2-1 << endl;
 

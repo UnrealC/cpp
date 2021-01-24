@@ -6,28 +6,28 @@ int main()
   //*********************************************************************
   //// while loop   
 
-  // unsigned short i = 0;
-  // while (i < 10) {
-  //   cout << i << endl;
-  //   i++;
-  // }
+   unsigned short i = 0;
+  while (i < 10) {
+    cout << i << endl;
+    i++;
+  }
 
 //*********************************************************************
   //// do..while loop 
   
-  // unsigned short i = 0;  
-  // do {
-  //   cout << i  << endl;
-  //   i++;
-  // } while (i < 10);
+   unsigned short i = 0;  
+  do {
+    cout << i  << endl;
+    i++;
+  } while (i < 10);
 
 //*********************************************************************
   //// for loop 
   
-  // for(unsigned short i = 0; i < 10; i++)
-  // {
-  //   cout << i << endl;
-  // }
+  for(unsigned short i = 0; i < 10; i++)
+  {
+    cout << i << endl;
+  }
   
   //*********************************************************************
   //Nested for loop 

@@ -72,26 +72,31 @@ class Car
 int main()
 {
 
-  Car carX;
-  Car carY("Innova", "Blue", 2015, 1250000);
-  Car carZ("Benz", "Red", 3500000);
+  Car *carX = new Car();
+  Car *carY = new Car("Innova", "Blue", 2015, 1250000);
+  Car *carZ = new Car("Benz", "Red", 3500000);
 
   cout << "****************************************************************************************************************************" << endl;
 
-  cout << "There is one " << carX.getColor() << " " + carX.getName() + " car " << "which is made in " << carX.getYear() 
-        << " and costs " << carX.getCost()/100000  << " lakh rupees." << endl;
+  cout << "There is one " << carX->getColor() << " " + carX->getName() + " car " << "which is made in " << carX->getYear() 
+        << " and costs " << carX->getCost()/100000  << " lakh rupees." << endl;
 
-  cout << "There is one " << carX.getColor() << " " + carX.getName() + " car " << "which is made in " << carX.getYear() 
-        << " and costs " << carX.getCost()/100000  << " lakh rupees." << endl;
+  cout << "There is one " << carX->getColor() << " " + carX->getName() + " car " << "which is made in " << carX->getYear() 
+        << " and costs " << carX->getCost()/100000  << " lakh rupees." << endl;
 
-  cout << "There is one " << carY.getColor() << " " + carZ.getName() + " car " << "which is made in " << carZ.getYear() 
-        << " and costs " << carZ.getCost()/100000  << " lakh rupees." << endl << endl;
+  cout << "There is one " << carY->getColor() << " " + carZ->getName() + " car " << "which is made in " << carZ->getYear() 
+        << " and costs " << carZ->getCost()/100000  << " lakh rupees." << endl << endl;
   
-  carY.setCost(4500000);
+  carY->setCost(4500000);
 
-  cout << carY.getName() + " car price has just been increased to " << carY.getCost()/100000 << " lakh rupees." << endl;
+  cout << carY->getName() + " car price has just been increased to " << carY->getCost()/100000 << " lakh rupees." << endl;
   cout << "****************************************************************************************************************************" << endl;
 
+  //cleanup
+  delete carX;
+  delete carY;
+  delete carZ;
+  
   return 0;
 }
 

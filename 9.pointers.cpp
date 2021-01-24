@@ -10,7 +10,7 @@ int main()
 {
   //In C++, "new" operator is used to allocate memory (In C, we use malloc()) function)  
   struct student *studentPtr = new student; 
-
+  
   studentPtr->id = 1; 
   studentPtr->name = "Peter";
 
